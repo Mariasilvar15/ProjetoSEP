@@ -99,7 +99,7 @@ function App() {
           <h3>Exibição e Ajuste</h3>
           <p>O sistema pode ser configurado para monitorar e ajustar a temperatura de maneira contínua, garantindo que ela se mantenha dentro dos limites ideais. O monitoramento em tempo real pode ser feito via monitor serial (para visualizar os valores no computador) ou através de uma interface com display LCD (para visualização no local).</p>
         </div>
-        <div className='text-box'>
+        <div className='text-box' id='ultimo'>
           <h3>Exibição e Ajuste</h3>
           <p>O sistema pode ser configurado para monitorar e ajustar a temperatura de maneira contínua, garantindo que ela se mantenha dentro dos limites ideais. O monitoramento em tempo real pode ser feito via monitor serial (para visualizar os valores no computador) ou através de uma interface com display LCD (para visualização no local).</p>
         </div>
