@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/ProjetoSEP/static/css/main.5bab7f64.css",
+    "main.js": "/ProjetoSEP/static/js/main.147ae02c.js",
+    "static/media/bghome4.png": "/ProjetoSEP/static/media/bghome4.41db3f70b92a034bde70.png",
+    "index.html": "/ProjetoSEP/index.html",
+    "main.5bab7f64.css.map": "/ProjetoSEP/static/css/main.5bab7f64.css.map",
+    "main.147ae02c.js.map": "/ProjetoSEP/static/js/main.147ae02c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5bab7f64.css",
+    "static/js/main.147ae02c.js"
+  ]
+}
