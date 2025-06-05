@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="home">
       <section className='header'>
-         <img src='/logo.png'/>
+         <img src={`${process.env.PUBLIC_URL}/logo.png`}/>
          <div className='header-menu'>
             <a>Home</a>
             <a>Introdução</a>
