@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/ProjetoSEP/static/css/main.5bab7f64.css",
-    "main.js": "/ProjetoSEP/static/js/main.64393797.js",
+    "main.css": "/ProjetoSEP/static/css/main.63f1123e.css",
+    "main.js": "/ProjetoSEP/static/js/main.4946fa5e.js",
     "static/media/bghome4.png": "/ProjetoSEP/static/media/bghome4.41db3f70b92a034bde70.png",
     "index.html": "/ProjetoSEP/index.html",
-    "main.5bab7f64.css.map": "/ProjetoSEP/static/css/main.5bab7f64.css.map",
-    "main.64393797.js.map": "/ProjetoSEP/static/js/main.64393797.js.map"
+    "main.63f1123e.css.map": "/ProjetoSEP/static/css/main.63f1123e.css.map",
+    "main.4946fa5e.js.map": "/ProjetoSEP/static/js/main.4946fa5e.js.map"
   },
   "entrypoints": [
-    "static/css/main.5bab7f64.css",
-    "static/js/main.64393797.js"
+    "static/css/main.63f1123e.css",
+    "static/js/main.4946fa5e.js"
   ]
 }
