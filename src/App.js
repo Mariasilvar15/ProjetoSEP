@@ -61,6 +61,7 @@ function App() {
         <div className='text-box'>
           <h3>Monitoramento da Temperatura</h3>
           <p>O Arduino Uno lê a temperatura de um sensor de temperatura (como um DHT11, DHT22, LM35 ou DS18B20). O sensor é colocado dentro do recipiente de fermentação ou do tanque de mash (onde você faz a mistura do malte com a água). Ele fornece dados de temperatura que são essenciais para controlar o processo de fabricação da cerveja.</p>
+          <img src={`${process.env.PUBLIC_URL}/graficos.png`}/>
         </div>
         <div className='text-box'>
           <h3>Relé</h3>
@@ -98,6 +99,25 @@ function App() {
         <div className='text-box'>
           <h3>Exibição e Ajuste</h3>
           <p>O sistema pode ser configurado para monitorar e ajustar a temperatura de maneira contínua, garantindo que ela se mantenha dentro dos limites ideais. O monitoramento em tempo real pode ser feito via monitor serial (para visualizar os valores no computador) ou através de uma interface com display LCD (para visualização no local).</p>
+        </div>
+        <div className='text-box' id='pdf-box'>
+          <h1 className='title'>Artigo</h1>
+          <Worker workerUrl="https://unpkg.com/pdfjs-dist@3.4.120/build/pdf.worker.min.js">
+            <div
+                className='pdf-div'
+                style={{
+                    border: '1px solid rgba(0, 0, 0, 0.3)',
+                    height: '755px',
+                    maxWidth: '600px',
+                    minWidth: '300px',
+                    width: '100%',
+                    //borderRadius: '25px',
+                    //padding: '15px 5px'
+                }}
+            >
+              <Viewer fileUrl={`${process.env.PUBLIC_URL}/artigo.pdf`}/>
+            </div>
+          </Worker>
         </div>
         <div className='text-box' id='ultimo'>
           <video muted autoPlay loop height="600">
