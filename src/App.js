@@ -14,7 +14,7 @@ function App() {
             <a>Receita</a>
             <a>Como funciona</a>
          </div>
-         <img src='/Senac.png'/>
+         <img src={`${process.env.PUBLIC_URL}/Senac.png`}/>
       </section>
       <section className='inicial-presentation'>
         <p>Engenharia de Produção</p>
@@ -48,10 +48,10 @@ function App() {
                     //padding: '15px 5px'
                 }}
             >
-              <Viewer fileUrl="/receita.pdf" />
+              <Viewer fileUrl={`${process.env.PUBLIC_URL}/receita.pdf`}/>
             </div>
           </Worker>
-          <img src='/producao.png'/>
+          <img src={`${process.env.PUBLIC_URL}/producao.png`}/>
         </div>
         <div className='text-box'>
           <h1 className='title'>Como funciona?</h1>
@@ -89,7 +89,7 @@ function App() {
           <h3>Aquecimento ou Resfriamento</h3>
           <p><i>Se a temperatura estiver abaixo da faixa ideal</i>, o Arduino aciona o relé para ligar o aquecedor (por exemplo, uma fita aquecedora ou um aquecedor imersivo).</p>
           <p><i>Se a temperatura estiver acima da faixa ideal</i>, o Arduino aciona o relé para ligar um sistema de resfriamento, como um ventilador ou bomba de água fria.</p>
-          <img src='/montagem.jpeg' />
+          <img src={`${process.env.PUBLIC_URL}/montagem.jpeg`}/>
         </div>
         <div className='text-box'>
           <h3>Controle de Relé</h3>
